@@ -1,16 +1,37 @@
 # xl_demo
 
-A new Flutter application.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Note: Make sure your Flutter environment is setup.
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+In the command terminal, run the following commands:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```sh
+$ git clone https://github.com/himanshudhiman1997/flutter-first.git
+$ cd flutter-first
+$ flutter run
+```
+
+## Simulate for iOS
+
+### Method One
+
+Open the project in Xcode from ios/Runner.xcodeproj.
+Hit the play button.
+
+### Method Two
+
+Run the following command in your terminal.
+```sh
+$ open -a Simulator
+$ flutter run
+```
+## Simulate for Android
+
+Make sure you have an Android emulator installed and running.
+Run the following command in your terminal.
+```sh
+$ flutter run
+```
